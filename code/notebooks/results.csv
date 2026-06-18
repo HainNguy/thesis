@@ -1,0 +1,4 @@
+dataset,augmentation,seed,nmi,ari
+iris,masking,0,0.78,0.74
+iris,noise,0,0.71,0.68
+adult,masking,0,0.42,0.39

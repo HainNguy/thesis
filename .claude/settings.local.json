@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jupyter nbconvert *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(rm \"/Users/bernstein/Library/Mobile Documents/com~apple~CloudDocs/Studium/Bachelor Arbeit/code/notebooks/sklearn_test.ipynb\")",
+      "Bash(python3)",
+      "Bash(python3 *)"
+    ]
+  }
+}
