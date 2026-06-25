@@ -14,7 +14,7 @@ Summary SCARF
 
 Encoder f -> Projection g -> classification h
 
-g: SCARF’s projection head g*g* ends with ℓ₂ normalization: both g(f(x))*g*(*f*(*x*)) and g(f(x~))*g*(*f*(*x*~)) are normalized. InfoNCE then uses the dot product of these normalized embeddings, effectively measuring cosine similarity on the unit hypersphere.
+g: SCARF’s projection head g ends with ℓ₂ normalization: both g(f(x)) and g(f(x~)) are normalized. InfoNCE then uses the dot product of these normalized embeddings, effectively measuring cosine similarity on the unit hypersphere.
 
 ## 4 Key results
 
